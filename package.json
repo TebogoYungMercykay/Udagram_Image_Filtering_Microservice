@@ -1,4 +1,5 @@
 {
+  "_comment": "If the zip command gives you problems just remove it and zip the 'www' file manually. NB:=For the 'Build' Command"
   "name": "udacity-c2-image-filter",
   "version": "1.0.0",
   "description": "",
