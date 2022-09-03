@@ -78,7 +78,7 @@ Deploying your system:
        - Type a keypair name. (Default is aws-eb): Enter
     Step 4: eb create (run on a terminal)
        - Enter Environment Name (default is XXXXXXXXXXXXXXXXXX): Enter
-       - Enter DNS CNAME prefix (default is XXXXXXXXXXXXXXXXXX): Enter
+       - Enter DNS CNAME prefix (default is XXXXXXXXXXXXXXXXXX): Enter (NB:= This has to be unique)
        - Select a load balancer type
             1) classic
             2) application
