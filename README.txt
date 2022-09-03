@@ -60,7 +60,7 @@ ________________________________________________________________________________
 _________________________________________________________________________________________
 Setup Node Environmen:
     Step 1: npm i
-    Step 1.1: npm audit fix (Optional).
+    Step 1.1: npm audit fix (Somewhat Optional).
     Step 2: npm run dev
     Step 3: npm run build
        - This Command should be properly set in the 'package.json' file in the same directory
