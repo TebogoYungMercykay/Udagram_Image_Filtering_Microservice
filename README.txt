@@ -32,6 +32,7 @@ Ionic CLI: https://ionicframework.com/docs/intro/cli
 AWS CLI:  https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
 Useful Tools: Postbird & Postman
 Frameworks and Tools: Node and NPM
+Node Modules: npm install -g node-modules
 Update Pip: python -m pip install --upgrade pip
 virtualenv: python -m pip install --user virtualenv
             (https://virtualenv.pypa.io/en/latest/installation.html)
