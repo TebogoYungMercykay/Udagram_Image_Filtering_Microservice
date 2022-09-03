@@ -62,6 +62,9 @@ Setup Node Environmen:
     Step 1: npm i
     Step 1.1: npm audit fix (Optional).
     Step 2: npm run dev
+    Step 3: npm run build
+       - This Command should be properly set in the 'package.json' file in the same directory
+       - If Zip Command Gives Problems: https://stackoverflow.com/a/55749636
 Create a new endpoint in the server.ts file:
     The starter code has a task for you to complete an endpoint in `./src/server.ts`,
     which uses query parameter to download an image from a public URL, filter the image, and return the result.
