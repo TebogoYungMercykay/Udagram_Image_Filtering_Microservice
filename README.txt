@@ -79,6 +79,9 @@ Deploying your system:
        - Do you wish to continue with CodeCommit? (Y/n): n
        - Do you want to set up SSH for your instances?(Y/n): y
        - Type a keypair name. (Default is aws-eb): Enter
+       - Add this block of code in the config file under the .elasticbeanstalk folder.
+            deploy:
+                artifact: ./www/Archive.zip
     Step 4: eb create (run on a terminal)
        - Enter Environment Name (default is XXXXXXXXXXXXXXXXXX): Enter
        - Enter DNS CNAME prefix (default is XXXXXXXXXXXXXXXXXX): Enter (NB:= This has to be unique)
