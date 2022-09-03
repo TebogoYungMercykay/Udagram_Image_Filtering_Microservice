@@ -1,5 +1,5 @@
 "use strict";
-let __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
         function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
@@ -35,15 +35,22 @@ const util_1 = require("./util/util");
     // RETURNS
     //   the filtered image file [!!TIP res.sendFile(filteredpath); might be useful]
     /**************************************************************************** */
-    app.get('/filteredimage', (req, res) => __awaiter(this, void 0, void 0, function* () {
-        const image_url = req.query.image_url.toString();
-        if (!image_url) {
-            res.status(400).send('Image url is required');
+    app.get("/filteredimage", (req, res) => __awaiter(this, void 0, void 0, function* () {
+        try {
+            let image_url = req.query.image_url;
+            if (!image_url) {
+                res.status(400).send('Image url is required');
+            }
+            else {
+                let filtered_image = yield util_1.filterImageFromURL(image_url);
+                res.status(200).sendFile(filtered_image, () => {
+                    util_1.deleteLocalFiles([filtered_image]);
+                });
+            }
         }
-        const filtered_image = yield util_1.filterImageFromURL(image_url);
-        res.status(200).sendFile(filtered_image, () => {
-            util_1.deleteLocalFiles([filtered_image]);
-        });
+        catch (_a) {
+            return res.status(500).send({ error: 'Unable to process the ImageURL you requested' });
+        }
     }));
     //! END @TODO1
     // Root Endpoint
