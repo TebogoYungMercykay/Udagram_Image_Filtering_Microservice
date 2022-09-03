@@ -59,6 +59,7 @@ ________________________________________________________________________________
 _________________________________________________________________________________________
 Setup Node Environmen:
     Step 1: npm i
+    Step 1.1: npm audit fix (Optional).
     Step 2: npm run dev
 Create a new endpoint in the server.ts file:
     The starter code has a task for you to complete an endpoint in `./src/server.ts`,
