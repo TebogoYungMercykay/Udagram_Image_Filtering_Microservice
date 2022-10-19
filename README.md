@@ -53,9 +53,9 @@ ________________________________________________________________________________
 _________________________________________________________________________________________
 #                 Perequisites(Installations) 2
 _________________________________________________________________________________________
-## Account Setup: https://portal.aws.amazon.com/billing/signup#/
-## Creating a user: https://aws.amazon.com/free/?trk=712ee378-d73b-4293-9bad-8ce09671ea7c&sc_channel=ps&s_kwcid=AL!4422!3!444219541886!p!!g!!aws%20account&ef_id=Cj0KCQjw08aYBhDlARIsAA_gb0f0v9icD8fw5bH10dU-jRFcB9_-SOHaAtkKh8Bwo4g1HQuaAQmSSQAaAjO2EALw_wcB:G:s&s_kwcid=AL!4422!3!444219541886!p!!g!!aws%20account&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
-## Permisions: AdministratorAccess-AWSElasticBeanstalk
+### Account Setup: https://portal.aws.amazon.com/billing/signup#/
+### Creating a user: https://aws.amazon.com/free/?trk=712ee378-d73b-4293-9bad-8ce09671ea7c&sc_channel=ps&s_kwcid=AL!4422!3!444219541886!p!!g!!aws%20account&ef_id=Cj0KCQjw08aYBhDlARIsAA_gb0f0v9icD8fw5bH10dU-jRFcB9_-SOHaAtkKh8Bwo4g1HQuaAQmSSQAaAjO2EALw_wcB:G:s&s_kwcid=AL!4422!3!444219541886!p!!g!!aws%20account&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
+### Permisions: AdministratorAccess-AWSElasticBeanstalk
 ## Quick Setup: 
     Step 1: aws configure (run on a terminal (eg.cmd))
     Step 2: Fill In The Details From The Created User
@@ -114,5 +114,5 @@ _______________ Stand Out (Optional) ___________________________________________
     (try adding a subdomain name to point to the processing server)
     - !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
 _________________________________________________________________________________________
-##                      THANK YOU, ALX-T Cloud Developer 
+##                      THANK YOU, ALX-T Cloud Development 
 _________________________________________________________________________________________
