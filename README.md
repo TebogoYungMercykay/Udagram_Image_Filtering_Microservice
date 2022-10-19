@@ -76,9 +76,10 @@ ________________________________________________________________________________
     The starter code has a task for you to complete an endpoint in `./src/server.ts`,
     which uses query parameter to download an image from a public URL, filter the image, and return the result.
     We've included a few helper functions to handle some of these concepts and we're importing it for you at the top of the     `./src/server.ts`  file.
-    ```typescript
-    import {filterImageFromURL, deleteLocalFiles} from './util/util';
-    ```
+    
+```typescript
+import {filterImageFromURL, deleteLocalFiles} from './util/util';
+```
 ## Deploying your system:
     Step 1: Open CMD as Addministrator and cd to the code files.
     Step 2: You can create a virtual enviromnment (Optional).
