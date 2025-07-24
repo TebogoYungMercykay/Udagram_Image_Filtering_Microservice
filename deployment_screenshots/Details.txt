@@ -1,3 +1,0 @@
-Endpoint: http://image-filter-project-02-main-dev.us-east-1.elasticbeanstalk.com/
-Git Repository: https://github.com/TebogoYungMercykay/Image-Filter-Project-02.git
-URL I Got: filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Golden_tabby_and_white_kitten_n01.jpg/800px-Golden_tabby_and_white_kitten_n01.jpg?20120904132217
