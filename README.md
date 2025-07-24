@@ -18,7 +18,7 @@ Review these files to ensure proper setup and to test all features of the Udagra
 
 ```
 .
-├── docs                 # Documentation and screenshots
+├── docs                        # Documentation and screenshots
 │   ├── guide.md
 │   ├── images
 │   │   └── screenshots/
@@ -30,8 +30,7 @@ Review these files to ensure proper setup and to test all features of the Udagra
 ├── README.md
 ├── src
 │   ├── server.ts               # Main server implementation
-│   └── util
-│       └── util.ts             # Image processing utilities
+│   └── util/                   # Image processing utilities
 ├── tree.txt
 ├── tsconfig.json
 ├── tslint.json
