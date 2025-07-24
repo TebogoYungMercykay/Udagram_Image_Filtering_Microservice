@@ -29,17 +29,17 @@ Review these files to ensure proper setup and to test all features of the Udagra
 ├── package-lock.json
 ├── README.md
 ├── src
-│   ├── server.ts         # Main server implementation
+│   ├── server.ts               # Main server implementation
 │   └── util
-│       └── util.ts       # Image processing utilities
+│       └── util.ts             # Image processing utilities
 ├── tree.txt
 ├── tsconfig.json
 ├── tslint.json
-└── www                   # Compiled JavaScript Files
+└── www                         # Compiled JavaScript Files
     ├── package.json
     ├── server.js
     ├── server.js.map
-    ├── tmp                # Create this empty older
+    ├── tmp                     # Create this empty older
     └── util
         ├── util.js
         └── util.js.map
