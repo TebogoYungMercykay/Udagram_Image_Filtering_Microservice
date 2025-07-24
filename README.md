@@ -50,4 +50,8 @@ Review these files to ensure proper setup and to test all features of the Udagra
 - **Starter Code**: [Udacity Cloud Developer Course](https://github.com/udacity/cloud-developer/tree/master/course-02/project/image-filter-starter-code)
 - This project was developed as part of the Udacity Cloud Engineering Nanodegree program.
 
+## License
+
+This project is licensed under the terms described in the [LICENSE](./LICENSE) file.
+
 ---
